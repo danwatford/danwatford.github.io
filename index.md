@@ -3,7 +3,7 @@ layout: default
 title: FOOMOO Software Development Services
 ---
 
-<strong>Delivering experienced and personalised solutions for your software needs.</strong>
+**Delivering experienced and personalised solutions for your software needs.**
 
 Foomoo is a Technology Consultancy providing Software Development Services with experience in projects ranging from the embedded to the enterprise.
 
@@ -21,6 +21,7 @@ Foomoo is able to undertake all aspects of the software development life-cycle, 
 <li>Training</li>
 </ul>
 
+**Blog Posts**
 <ul>
   {% for post in site.posts %}
     <li>
