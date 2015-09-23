@@ -20,12 +20,3 @@ Foomoo is able to undertake all aspects of the software development life-cycle, 
 <li>Continuous Build and Delivery Environments</li>
 <li>Training</li>
 </ul>
-
-**Blog Posts**
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>

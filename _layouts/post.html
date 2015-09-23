@@ -1,26 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+{% include header.html %}
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ page.title }} | FOOMOO</title>
-   <meta name="author" content="Watford Consulting Ltd." />
-</head>
-<body>
-  <div class="container_12">
-    <div id="links" class="grid_2">
-      <a href="/about.html">about</a>
-      <a href="/archive">archive</a>
-    </div>
-    <div id="main" class="grid_8">
-	  <h1>{{ page.title }}</h1>
-      <hr />
-      {{ content }}
-      <hr />
-      </div>
-    </div>
-  </div>
-</body>
-</html>
+    <h1>{{ page.title }}</h1>
+    <p class="muted">{{ page.date | date_to_long_string }}</p>
 
+    {{ content }}
+
+{% include footer.html %}
