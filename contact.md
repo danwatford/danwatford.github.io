@@ -12,7 +12,7 @@ Contact
     </td>
     
     <td>
-      enquiries@foomoo.com
+      <a href="mailto:enquiries@foomoo.com">enquiries@foomoo.com</a>
     </td>
   </tr>
   
@@ -32,7 +32,7 @@ Contact
     </td>
     
     <td>
-      102 Minster Road<br />Westgate-On-Sea<br />Kent<br />CT8 8DG<br />UK
+      Watford Consulting Ltd.<br />102 Minster Road<br />Westgate-On-Sea<br />Kent<br />CT8 8DG<br />UK
     </td>
   </tr>
 </table>

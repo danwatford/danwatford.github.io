@@ -30,6 +30,7 @@ but you will get error messages relating to lampp not being installed in /opt. T
 <pre>sudo ln -s /home/user/lampp/ /opt/lampp</pre>
 You can then launch the servers with:
 <pre>sudo /opt/lampp/lampp start</pre>
-You can then point your browser at http://localhost and hopefully see this:<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_4aF2xMQuJsA/S4QZeP3go1I/AAAAAAAAcKE/oaxZHuagJrM/s1600-h/xampp_screenshot-737073.jpg"><img id="BLOGGER_PHOTO_ID_5441502257216529234" style="display: block; margin: 0px auto 10px; text-align: center; cursor: hand; width: 320px; height: 187px;" src="http://3.bp.blogspot.com/_4aF2xMQuJsA/S4QZeP3go1I/AAAAAAAAcKE/oaxZHuagJrM/s320/xampp_screenshot-737073.jpg" alt="" border="0" /></a>
+You can then point your browser at http://localhost and hopefully see this:
+![](/images/xampp_screenshot-737073.jpg)
 
 From here you can click on the link to phpMyAdmin to get to some database management tools.

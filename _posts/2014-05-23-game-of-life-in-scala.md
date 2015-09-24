@@ -1,7 +1,8 @@
 ---
 layout: post
 ---
-<img class="alignnone size-medium wp-image-237" src="http://www.foomoo.com/wp-content/uploads/2014/05/GameOfLifeApp-300x277.png" alt="GameOfLifeApp" width="300" height="277" />
+![](/images/GameOfLifeApp-300x277.png)
+
 Find the sources on GitHub: <a href="https://github.com/danwatford/gameoflife-scala.git">https://github.com/danwatford/gameoflife-scala.git</a>
 
 Game of Life in Scala is a simple GUI program making use of the scala.swing package. Scala.swing provides wrappers around the Java Swing component removing a lot of the boiler plate associated with common tasks.

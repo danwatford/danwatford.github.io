@@ -2,7 +2,7 @@
 title: 'APRSParser - A Spring Example'
 layout: post
 ---
-<a style="clear: left; display: inline !important; margin-bottom: 1em; margin-right: 1em;" href="http://4.bp.blogspot.com/_4aF2xMQuJsA/S5jvp5sq8pI/AAAAAAAAcM0/yb6AvoIPdm4/s1600-h/APRSParser_Class_Diagram.JPG"><img src="http://4.bp.blogspot.com/_4aF2xMQuJsA/S5jvp5sq8pI/AAAAAAAAcM0/yb6AvoIPdm4/s640/APRSParser_Class_Diagram.JPG" alt="" width="640" height="480" border="0" /></a>
+![](/images/APRSParser_Class_Diagram.jpg)
 
 This is a class diagram for APRSParser – a small demonstration project which uses the Spring framework for object creation, dependency injection, and some basic aspect programming to provide logging.
 

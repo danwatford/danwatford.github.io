@@ -9,7 +9,7 @@ Foomoo is a Technology Consultancy providing Software Development Services with 
 
 Foomoo is able to undertake all aspects of the software development life-cycle, including:
 <ul>
-<li>Requirement Capture</li>
+<li>Requirements Capture</li>
 <li>Rapid Prototyping</li>
 <li>High and Low-level Architecture &amp; Design</li>
 <li>Design Implementation (Coding)</li>

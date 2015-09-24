@@ -126,6 +126,4 @@ The warnings are from log4j complaining that we haven't provided a properties fi
 
 Go back to phpMyAdmin in the browser and refresh the page. Click on the Browse action icon for the Callsign table. 
 
-<div style="text-align: center;">
-  <a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://4.bp.blogspot.com/_4aF2xMQuJsA/S4QNI4wWW7I/AAAAAAAAcJ0/1IiygnMOqGE/s1600-h/CallsignTable1-798094.jpg"><img id="BLOGGER_PHOTO_ID_5441488696095693746" style="display: block; margin: 0px auto 10px; text-align: center; cursor: hand; width: 320px; height: 187px;" src="http://4.bp.blogspot.com/_4aF2xMQuJsA/S4QNI4wWW7I/AAAAAAAAcJ0/1IiygnMOqGE/s320/CallsignTable1-798094.jpg" alt="" border="0" /></a>
-</div>
+![](/images/CallsignTable1-798094.jpg)

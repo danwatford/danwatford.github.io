@@ -32,7 +32,7 @@ Accept all defaults when creating the new project.
 About the only thing we need to tell eclipse about when compiling our project is the location of the Hibernate API. Right-click on the aprs project in package explorer and select Build Path -> Configure Build Path...
 
 Select the Libraries tab and click on the Add External Jars... button. In the file selection dialog, navigate to the /home/user/hibernate-distribution-3.3.1.GA directory and then select the hibernate3.jar file. Click OK.
-<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_4aF2xMQuJsA/S4QYZXp58mI/AAAAAAAAcJ8/20lHwWR_ZEw/s1600-h/eclipse_hibernate_library-765339.jpg"><img id="BLOGGER_PHOTO_ID_5441501073895977570" style="display: block; margin: 0px auto 10px; text-align: center; cursor: hand; width: 320px; height: 187px;" src="http://1.bp.blogspot.com/_4aF2xMQuJsA/S4QYZXp58mI/AAAAAAAAcJ8/20lHwWR_ZEw/s320/eclipse_hibernate_library-765339.jpg" alt="" border="0" /></a>
+![](/images/eclipse_hibernate_library-765339.jpg)
 
 Click OK to close aprs properties dialog.
 
