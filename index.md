@@ -5,9 +5,9 @@ title: Watford Consulting Ltd. Software Development Services
 
 **Delivering experienced and personalised solutions for your software needs.**
 
-Watford Consulting Ltd. provides Software Development Services for projects ranging from the embedded to the enterprise.
+Watford Consulting provides Software Development Services for projects ranging from the embedded to the enterprise.
 
-Foomoo is able to undertake all aspects of the software development life-cycle, including:
+Watford Consulting is able to undertake all aspects of the software development life-cycle, including:
 <ul>
 <li>Requirements Capture</li>
 <li>Rapid Prototyping</li>
