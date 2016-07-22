@@ -6,11 +6,11 @@ Find the sources on Github: <https://github.com/danwatford/abc>
 
 ## Parsing ABC Notation
 
-ABC Notation (<https://en.wikipedia.org/wiki/ABC_notation>) is a way to encode music notation in simple text. There are many sources of folk/tradition tunes given in ABC Notation.
+ABC Notation (<https://en.wikipedia.org/wiki/ABC_notation>) is a way to encode music notation in simple text. There are many sources of folk/tradition tunes available in ABC Notation.
 
-As part of a project to find shared sequences of notes in traditional tunes (see <http://abc.foomoo.com>) I wanted to parse the content of ABC tune files into objects that could be readily processed.
+As part of a project to find shared sequences of notes in traditional tunes (see <http://abc.foomoo.com>) I built a parser to transform the content of ABC tune files into objects that could be readily processed.
 
-This parser only converts ABC content into case classes that represent the various ABC notation elements used in the input. Trying to go directly from the ABC notation to tune objectts would have introduced a lot of rules/complexity into the parser which would be better handled in a separate processing phase.
+This parser only converts ABC content into case classes that represent the various ABC notation elements used in the input. Trying to go directly from the ABC notation to tune objects would have introduced a lot of rules/complexity into the parser which is better handled in a separate processing phase.
 
 ## Using the Parser
 
@@ -42,5 +42,3 @@ Since whitespace is an important component of the ABC notation it is important t
 
 To enable parsing of notation elements in String literals where terminating newlines might be missing, the end of input parser was defined. This parser is tested in many of the same places that tests are made for line breaks in input.
 This was important to simplify building of test strings in the test specs.
-
-
