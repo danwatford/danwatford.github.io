@@ -12,7 +12,7 @@ Contact
     </td>
     
     <td>
-      <a href="mailto:enquiries@foomoo.com">enquiries@foomoo.com</a>
+      <a href="mailto:enquiries@watfordconsulting.com">enquiries@watfordconsulting.com</a>
     </td>
   </tr>
   
@@ -22,6 +22,7 @@ Contact
     </td>
     
     <td>
+	  020 3289 2027<br/>
       07729 932505
     </td>
   </tr>

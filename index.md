@@ -1,11 +1,11 @@
 ---
 layout: default
-title: FOOMOO Software Development Services
+title: Watford Consulting Ltd. Software Development Services
 ---
 
 **Delivering experienced and personalised solutions for your software needs.**
 
-Foomoo is a Technology Consultancy providing Software Development Services with experience in projects ranging from the embedded to the enterprise.
+Watford Consulting Ltd. provides Software Development Services for projects ranging from the embedded to the enterprise.
 
 Foomoo is able to undertake all aspects of the software development life-cycle, including:
 <ul>
