@@ -2,8 +2,7 @@
 title: Contact
 layout: default
 ---
-Contact
-=
+<p class="lead">Contact</p>
 
 <table class="table table-striped">
   <tr>
