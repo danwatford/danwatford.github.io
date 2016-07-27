@@ -2,9 +2,8 @@
 layout: default
 title: Blog Archive
 ---
-
-# Blog Posts
+<p class="lead">Blog Posts</p>
 
 {% for post in site.posts %}
-  * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
+  {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
 {% endfor %}

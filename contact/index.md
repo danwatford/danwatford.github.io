@@ -32,7 +32,14 @@ layout: default
     </td>
     
     <td>
-      Watford Consulting Ltd.<br />102 Minster Road<br />Westgate-On-Sea<br />Kent<br />CT8 8DG<br />UK
+	<address>
+      <strong>Watford Consulting Ltd.</strong><br>
+	  102 Minster Road<br>
+	  Westgate-On-Sea<br>
+	  Kent<br>
+	  CT8 8DG<br>
+	  UK
+	</address>
     </td>
   </tr>
 </table>
