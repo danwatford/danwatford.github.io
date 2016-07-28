@@ -37,14 +37,20 @@
 			font-weight: bold;
 		}
 		
-		.xjumbotron {
-			background-color: #f5f5f5
-		}
-		
 		.jumbotron {
 			padding-top: 10px;
 			padding-bottom: 10px;
 		}
+
+		.navbar-text {
+			font-size: 20px;
+			vertical-align: middle;
+		}
+		
+		.icon > svg { display: inline-block; width: 20px; height: 20px; vertical-align: middle; }
+		.icon > svg path { fill: #828282; }
+		
+		.glyphicon-earphone { font-size: 20px; }
 		
 	</style>
 </head>
@@ -69,8 +75,17 @@
         <li><a href="/blog">Blog</a></li>
         <li><a href="/contact">Contact</a></li>
       </ul>
-	  <ul class="nav navbar-right">
-		<p class="navbar-text">Tel: 07729 932505</p>
+	  <ul class="nav navbar-nav navbar-right">
+		{% if site.github_username %}
+		  <li><a href="https://github.com/{{ include.username }}"><span class="icon icon--github">{% include icon-github.svg %}</span></a></li>
+        {% endif %}
+
+        {% if site.twitter_username %}
+		  <li><a href="https://twitter.com/{{ include.username }}"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span></a></li>
+        {% endif %}
+		
+		<li><a class="glyphicon glyphicon-earphone" aria-hidden="true"></a></li>
+		<li><a >020 3289 2027</a></li>
 	  </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
