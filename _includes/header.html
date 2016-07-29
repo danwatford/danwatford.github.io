@@ -3,104 +3,127 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <!--<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">-->
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>Watford Consulting | Software Development Services</title>
-	<meta name="author" content="Watford Consulting Ltd." />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Watford Consulting | Software Development Services</title>
+    <meta name="author" content="Watford Consulting Ltd."/>
 
-	<link href="/css/bootstrap.min.css" rel="stylesheet">
-	<style>
-		body {
-			padding-top: 60px;
-		}
-		
-		#site-title a {
-			font-weight: bold;
-			font-size: 48px;
-			line-height: 36px;
-		}
-		
-		#blog-title {
-			font-weight: bold;
-		}
-		
-		#site-title a:hover {
-			color: #e4741f;
-		}
-		
-		.lead {
-			font-size: 14px;
-			font-weight: bold;
-		}
-		
-		.navbar-brand {
-			font-weight: bold;
-		}
-		
-		.jumbotron {
-			padding-top: 10px;
-			padding-bottom: 10px;
-		}
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 50px;
+        }
 
-		.navbar-text {
-			font-size: 20px;
-			vertical-align: middle;
-		}
-		
-		.icon > svg { display: inline-block; width: 20px; height: 20px; vertical-align: middle; }
-		.icon > svg path { fill: #828282; }
-		
-		.glyphicon-earphone { font-size: 20px; }
-		
-	</style>
+        #site-title a {
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 36px;
+        }
+
+        #blog-title {
+            font-weight: bold;
+        }
+
+        #site-title a:hover {
+            color: #e4741f;
+        }
+
+        .lead {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+        }
+
+        .jumbotron {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .navbar-text {
+            font-size: 20px;
+            vertical-align: middle;
+        }
+
+        .icon > svg {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+        }
+
+        .icon > svg path {
+            fill: #828282;
+        }
+
+        .glyphicon-earphone {
+            font-size: 20px;
+        }
+
+        section.home-panel {
+            padding-bottom: 30px;
+        }
+
+    </style>
 </head>
-<body>
 
+<body>
 <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid row">
+    <!--  <div class="container-fluid row"> -->
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>	
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="/">Home</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/contact">Contact</a></li>
-      </ul>
-	  <ul class="nav navbar-nav navbar-right">
-		{% if site.github_username %}
-		  <li><a href="https://github.com/{{ include.username }}"><span class="icon icon--github">{% include icon-github.svg %}</span></a></li>
-        {% endif %}
+        <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/business-change.html">Business Change</a></li>
+            <li><a href="/software.html">Software Development</a></li>
+            <li><a href="/integration.html">Integration</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            {% if site.github_username %}
+            <li><a href="https://github.com/{{ include.username }}"><span class="icon icon--github">{% include icon-github.svg %}</span></a>
+            </li>
+            {% endif %}
 
-        {% if site.twitter_username %}
-		  <li><a href="https://twitter.com/{{ include.username }}"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span></a></li>
-        {% endif %}
-		
-		<li><a class="glyphicon glyphicon-earphone" aria-hidden="true"></a></li>
-		<li><a >020 3289 2027</a></li>
-	  </ul>
+            {% if site.twitter_username %}
+            <li><a href="https://twitter.com/{{ include.username }}"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span></a>
+            </li>
+            {% endif %}
+
+            <!--<li><a class="glyphicon glyphicon-earphone" aria-hidden="true"></a></li>-->
+            <li><a>020 3289 2027</a></li>
+        </ul>
     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    <!--  </div><!-- /.container-fluid -->
 </nav>
 
-<div class="container">
+<!-- <div class="container">
 <div class="row">
-	<div class="jumbotron">
-		<div class="container">
-			<center>
-				<h1 id="site-title"><a href="/" rel="home"><img src="/images/logo-main-1.svg"</img></a></h1>
-				<p class="lead">Software Development Services</p>
-			</center>
-		</div>
-	</div>
+ -->
+<div class="jumbotron">
+    <div class="container">
+        <center>
+            <h1 id="site-title"><a href="/" rel="home"><img src="/images/logo-main-1.svg"</img></a></h1>
+            <p class="lead">Software Development Services</p>
+        </center>
+    </div>
 </div>
-<div class="row">
+<!-- </div>
+</div>
+ --><!--<div class="row">
 	<div class="col-md-8">
+-->

@@ -2,6 +2,8 @@
 title: Contact
 layout: default
 ---
+<section class="home-panel panel-integration">
+<div class="container">
 <p class="lead">Contact</p>
 
 <table class="table table-striped">
@@ -43,3 +45,6 @@ layout: default
     </td>
   </tr>
 </table>
+
+</div>
+</section>
