@@ -62,3 +62,18 @@ systems, allowing the data critical to your business to flow freely without manu
 </div>
 </section>
 
+<section class="home-panel panel-blog">
+<div class="container">
+<p class="lead">Recent Blog Articles</p>
+
+{% for post in site.posts limit:3 %}
+    <p>
+        <a href="{{ post.url }}">{{ post.date | date_to_string }} - {{ post.title }}</a>
+    </p>
+
+  <!--<p>{{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})</p>-->
+{% endfor %}
+
+
+</div>
+</section>
