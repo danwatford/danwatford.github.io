@@ -8,3 +8,6 @@ kramdown:
 
 twitter_username: DanWatford
 github_username:  danwatford
+
+gems:
+  -jekyll-gist
