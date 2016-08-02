@@ -74,6 +74,7 @@ systems, allowing the data critical to your business to flow freely without manu
   <!--<p>{{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})</p>-->
 {% endfor %}
 
+<a href="/blog" class="btn btn-default">Read More</a>
 
 </div>
 </section>
