@@ -9,7 +9,7 @@ title: Watford Consulting Ltd. Software Development Services
 <p>Watford Consulting is a software development consultancy with experience in projects ranging from the embedded to the 
 enterprise.</p>
 
-<p>We're ready to build the mission critical software solutions your business needs.</p>
+<p>We're here to build the mission critical software solutions your business needs.</p>
 </div>
 </section>
 
@@ -21,7 +21,7 @@ degrade your performance and competitive edge.</p>
 
 <p>If you sense that things could be a bit better in your business Watford Consulting can help.</p>
 
-<p>We'll work with you to identify those area of your business which will gain the most benefit to a bit of
+<p>We'll work with you to identify those areas of your business which will gain the most from a bit of
 'IT Re-engineering' and together we can start sketching out solutions.</p>
 
 <a href="/business-change.html" class="btn btn-default">Read More</a>
@@ -52,11 +52,11 @@ accountable, buildable and testable - unleashing the return on your investment a
 <p class="lead">Software and Systems Integration</p>
 
 <p>Growing businesses often find themselves in the situation where they have two or more existing systems
-critical to their processes which cannot talk to each other. In these situations manual processes
+critical to their processes which cannot talk to each other. In these situations processes
 are established to manually modify and move data between the systems.</p>
 
 <p>By analysing how these systems work Watford Consulting can help build integration points between
-systems, allowing the data critical to your business to flow freely without manual intervention.</p>
+systems, allowing the data critical to your business to flow freely without error prone manual intervention.</p>
 
 <a href="/integration.html" class="btn btn-default">Read More</a>
 </div>

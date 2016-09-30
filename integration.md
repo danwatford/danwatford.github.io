@@ -8,11 +8,11 @@ title: Integration
 <p class="lead">Software and Systems Integration</p>
 
 <p>Growing businesses often find themselves in the situation where they have two or more existing systems
-critical to their processes which cannot talk to each other. In these situations manual processes
+critical to their processes which cannot talk to each other. In these situations processes
 are established to manually modify and move data between the systems.</p>
 
 <p>By analysing how these systems work Watford Consulting can help build integration points between
-systems, allowing the data critical to your business to flow freely without manual intervention.</p>
+systems, allowing the data critical to your business to flow freely without error prone manual intervention.</p>
 
 <p class="lead">Mixing Off-The-Shelf and Bespoke Software</p>
 

@@ -26,15 +26,15 @@ Consulting perfectly!</p>
 not throw it over the wall so that it is someone else's problem. Software is a matter of professional pride.</li>
 <li>They are continuously learning, engaging in the community, attending conferences, applying best practices.</li>
 <li>They want their software released to users. They crave feedback on the software effectiveness. They use that
-feed back to inform further development</li>
+feedback to inform further development</li>
 <li>They are pragmatic, recognising that the commercial concerns of the business must be satisfied. It is no use
-building purist software if there is no one left to use it.</li>
+spending time building purist software if meanwhile the business has lost out to the competition and there is no one left to use it.</li>
 <li>They go out of their way to understand the problem fully, learn the terminology of the problem space. The more
 we know the luckier we get! The more we can understand about the problem space, the more the solution space grows
 and the greater the chances of finding an elegant solution.</li>
 </ul></p>
 
-<p>Your team will guide you through development and help you ensure the other components you need are in place.</p>
+<p>Watford Consulting can guide you through development and help you ensure the other components you need are in place.</p>
 
 <p class="lead">Software Version Control Systems</p>
 <p>Get all sources for your software products into a version control system on day one. This paves the way for multiple
@@ -56,18 +56,18 @@ some changes have broken the build. Better still, if your workflow involves deve
 branches, have the build automation system build those branches too. This should keep your main branch clear
 of any build failures.</p>
 
-<p>Release builds should always come from your build automation system, never from the developers own environment. This
+<p>Release builds should always come from your build automation system, never from a developers own environment. This
 keeps all builds consistent and means you won't suffer issues when it turns out the developer's environment was 
 inconsistent with the build environment.</p>
 
 <p>For Java development, build scripting with Ant and Ivy is a mature choice when you need a lot of build customisation. 
 If your build is a bit more mainstream then Maven or any of its derivative build systems will work well.</p>
 
-<p>Once the build scripts are in place you'll want a system to run the build when changes are detected int he version
+<p>Once the build scripts are in place you'll want a system to run the build when changes are detected in the version
 control system. Jenkins is a very popular automation server with integrations for many tools such as code style checking,
 static analysis tools and build artefact repositories.</p>
 
-<p>Once your builds have run you will need to store the resulting artefacts using a repository manager such as Artifactory
+<p>When builds have run you will need to store the resulting artefacts using a repository manager such as Artifactory
 ready for testing and deployment. Repository managers are also ideal for mirroring libraries normally downloaded from
 the internet during build.</p>
 
@@ -89,21 +89,21 @@ to users right away.</p>
 helps produce software that will be more easily understood by others, aiding on-boarding of new developers and easing any future maintenance.</p>
 
 <p>Software systems can be complex, but we can tackle the complexity by breaking systems down into small components which are
-easier to reason about an implement. Since these components become the foundation of the larger system it is imporant to 
-ensure they are well defined and well tested. Developers can build automated tests that are run as part of the build process
-to exercise these smaller components in Unit Tests.</p>
+easier to reason about and implement. Since these components become the foundation of the larger system it is imporant to 
+ensure they are well defined and tested. Developers can create automated tests that are run as part of the build process
+which will exercise these smaller components in Unit Tests.</p>
 
 
 <p class="lead">Code Review</p>
 
-<p>Those automated tests are only as good as the code they are written in. A supportive code review is a great way to keep the code base
+<p>Those automated tests are only as good as the code they are made up of. A supportive code review is a great way to keep the code base
 adhering to best practice. Use code reviews as the gate keeper to accepting code changes into your main branch.<p>
 
 
 <p class="lead">Testing</p>
 
-<p>Testing goes further than the developers' automated testing. A variety of system and integration classes of test are needed to
-ensure that the emerging complexity built from all those simple parts we worked hard to build does what is needed.</p>
+<p>Testing goes further than the developers' automated testing. A variety of system and integration tests ensure the simple software components
+interact appropriately to fullfil the projects needs.</p>
 
 <p>Watford Consulting can supplement your test teams, devising the functional and non-functional tests which exercise your products, ensuring
 the requirements have been met.</p>
