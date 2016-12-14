@@ -51,7 +51,7 @@ hosting on-premises. If you prefer something externally hosted look at the offer
 <p>Once you have you Version Control System you can concentrate on a Continuous Build and Integration tool. These tools
 will detect every change commited against your code to trigger rebuilding and testing of your software products.</p>
 
-<p>Getting this your build running fast is important to give developers fast feedback and to help the team notice when
+<p>Getting your build running fast is important to give developers fast feedback and to help the team notice when
 some changes have broken the build. Better still, if your workflow involves developers working on bugfix or feature 
 branches, have the build automation system build those branches too. This should keep your main branch clear
 of any build failures.</p>
